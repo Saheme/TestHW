@@ -10,10 +10,14 @@ public class Victorina {
         for(int i=0;question.length>i;i++){
             System.out.println(question[i]);
             System.out.println();
-
-            String[] variant = {"Ванкувер", "Торонто", "Оттава","Монреаль","Атлантический океан ", "Тихий океан ", "Южный океан ", "Северный Ледовитый океан "};
+            String[] variant = {"Ванкувер", "Торонто", "Оттава","Монреаль","Атлантический океан", "Тихий океан", "Южный океан", "Северный Ледовитый океан","Юкон", "Колумбия", "Маккензи", "Пис","Вуд", "Ванкувер", "Кинг Пик", "Логан"};
             for (int j = 0; variant.length > j; j=j+1) {
                 System.out.println(variant[j]);
+                System.out.println();
+            }
+            String[] answer = {"Оттава", "Южный океан", "Юкон", "Логан"};
+            for (int k = 0; answer.length > k; k = k + 1) {
+                System.out.println(variant[k]);
             }
         }
         Scanner scan = new Scanner(System.in);
