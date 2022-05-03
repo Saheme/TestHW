@@ -21,10 +21,11 @@ public class Victorina {
         } else {
             System.out.println("Неправильно. ");
             wrongAnswer++;
-        }
+        }System.out.println("Правильных ответов " + rightAnswer);
+        System.out.println("Неправильных ответов " + wrongAnswer);
         System.out.println();
 
-        String ocean = "С каким океаном не граничит Канада";
+       /* String ocean = "С каким океаном не граничит Канада";
         System.out.println(ocean);
         System.out.println();
         String[] variant2 = {"", "Атлантический океан ", "Тихий океан ", "Южный океан ", "Северный Ледовитый океан "};
@@ -77,8 +78,7 @@ public class Victorina {
             wrongAnswer++;
         }
         System.out.println();
-        System.out.println("Правильных ответов " + rightAnswer);
-        System.out.println("Неправильных ответов " + wrongAnswer);
+         */
     }
 }
 
