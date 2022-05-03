@@ -6,12 +6,15 @@ public class Victorina {
     public static void main(String[] args) {
         int rightAnswer = 0;
         int wrongAnswer = 0;
-        String capital = "Выберите столицу Канады";
-        System.out.println(capital);
-        System.out.println();
-        String[] variant = {"", "Ванкувер ", "Торонто ", "Оттава ", "Монреаль "};
-        for (int i = 1; variant.length > i; i++) {
-            System.out.println(variant[i] + i);
+        String [] question = {"Выберите столицу Канады", "С каким океаном не граничит Канада", "Самая длинная река Канады", "Самая высокая гора в Канаде"};
+        for(int i=0;question.length>i;i++){
+            System.out.println(question[i]);
+            System.out.println();
+
+            String[] variant = {"Ванкувер", "Торонто", "Оттава","Монреаль","Атлантический океан ", "Тихий океан ", "Южный океан ", "Северный Ледовитый океан "};
+            for (int j = 0; variant.length > j; j=j+1) {
+                System.out.println(variant[j]);
+            }
         }
         Scanner scan = new Scanner(System.in);
         int answer = scan.nextInt();
